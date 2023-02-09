@@ -1,7 +1,3 @@
-
-
-
-/* Login Section Style */
 * {
     box-sizing: border-box;
 }
@@ -56,10 +52,10 @@ form a {
 
 
 .form-container form {
-    background: #fff;
+   
     display: flex;
     flex-direction: column;
-    padding:  0 50px;
+    padding:  0 96px;
     height: 100%;
     justify-content: center;
     align-items: center;
@@ -96,10 +92,10 @@ button:active {
 button:focus {
     outline: none;
 }
-
 button .ghost {
     background: transparent;
-    border-color: #fff;
+    border-color: #fbfbfb;
+    background-color:white;
 }
 .form-container {
     position: absolute;
@@ -124,10 +120,9 @@ button .ghost {
     transition: transform .6s ease-in-out;
     z-index: 100;
 }
-
 .overlay {
-    background: #ff416c;
-    background: linear-gradient(to right, #008ecf, #008ecf) no-repeat 0 0 / cover;
+   
+    background: linear-gradient(to right, #008ecf, #41a1d1) no-repeat 0 0 / cover;
     color: #fff;
     position: relative;
     left: -100%;
@@ -155,6 +150,12 @@ button .ghost {
 .overlay-right {
     right: 0;
     transform: translateY(0);
+}
+.form-container h1 {
+     padding-top: 36%;
+}
+.form-container .sign-up{
+        margin-top: -42%    ;
 }
 
 

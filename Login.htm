@@ -7,15 +7,12 @@
     <title>E-Commerce | netTantra</title>
     <link rel="stylesheet" href="Login.css">
 </head>
-<body>
- 
-  
+<body>  
   <section>
     <div class="login-container" id="container">      
       <div class="form-container sign-in-container">
         <form action="#">
           <h1>Sign in</h1>          
-          <span> Or sign in using E-Mail Address</span>
           <label>
             <input type="email" placeholder="Email" />
           </label>
@@ -23,15 +20,25 @@
             <input type="password" placeholder="Password" />
           </label>
           <a href="#">Forgot your password?</a>
-          <button>Sign In</button>
+          <button class="Sign-Button">Sign In</button>
         </form>
       </div>
-      <div class="overlay-container">
-        <div class="overlay">         
-          <div class="overlay-panel overlay-right">
-            <h1>Create, Account!</h1>
-            <p><strong>Sign up if you still don't have an account...</strong></p>
-            <button class="ghost" >Sign Up</button>
+      <div class="overlay-container">         
+        <div class="overlay">                   
+          <div class="overlay-panel  overlay-right">                        
+            <div class="form-container sign-in-container">
+               <h1>Create,Account!</h1>
+              <form action="#" class="sign-up">                
+                <label>
+                  <input type="email" placeholder="Email" />
+                </label>
+                <label>
+                  <input type="password" placeholder="Password" />
+                </label>
+                <a href="#" style="color:aliceblue">Forgot your password?</a>
+                <button class="ghost" ><strong>Sign Up</strong></button>
+              </form>
+            </div>           
           </div>
         </div>
       </div>
